@@ -1,0 +1,12 @@
+# RouteNet Traffic Models: link congestion detection with diverse traffic patterns
+# Data: https://github.com/BNN-UPC/NetworkModelingDatasets (v5)
+# Download (12.1 GB): wget -O traffic_models.zip https://bnn.upc.edu/download/dataset-v5-traffic-models/
+# Extract to data/routenet/traffic_models/ and copy datanetAPI.py from RouteNet-Erlang/TrafficModels/
+# Sub-experiments: onoff, autocorrelated, constant_bitrate, modulated, all_multiplexed
+# Topologies: NSFNET (14), GEANT2 (24). 5 traffic types.
+# Change data_dir to use a different traffic type, e.g. data/routenet/traffic_models/autocorrelated
+_target_: hetsheaf.datasets.networking.RouteNetNCDataModule
+data_dir: data/routenet/traffic_models
+experiment: all_multiplexed # mixes all traffic types; change to e.g. onoff for a single traffic type
+congestion_threshold: 0.5  # median utilization ~0.5 for traffic_models; gives ~45/55 balance
+num_samples: 10

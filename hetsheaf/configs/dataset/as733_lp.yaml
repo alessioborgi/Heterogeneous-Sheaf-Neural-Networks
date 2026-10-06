@@ -1,0 +1,7 @@
+# AS-733: BGP Autonomous Systems topology (SNAP)
+# Download: https://snap.stanford.edu/data/as-733.tar.gz (auto-downloaded)
+# Info: https://snap.stanford.edu/data/as-733.html
+# ~6,474 nodes, ~13,895 edges (Jan 2000 snapshot), 3 node types, 3 edge types
+_target_: hetsheaf.datasets.networking.AS733LPDataModule
+node_feature_type: degree
+snapshot: as20000102

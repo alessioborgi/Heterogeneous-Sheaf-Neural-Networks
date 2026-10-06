@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Heterogeneous Sheaf Neural Networks"
+type: software
+repository-code: "https://github.com/alessioborgi/Heterogeneous-Sheaf-Neural-Networks"
+license: CC0-1.0
+authors:
+  - family-names: Braithwaite
+    given-names: Luke
+    affiliation: University of Cambridge
+  - family-names: Borgi
+    given-names: Alessio
+    affiliation: Sapienza University of Rome; University of Cambridge
+  - family-names: Onorato
+    given-names: Gabriele
+    affiliation: Northeastern University
+  - family-names: Tarantelli
+    given-names: Kristjan
+    affiliation: Sapienza University of Rome
+  - family-names: Restuccia
+    given-names: Francesco
+    affiliation: Northeastern University
+  - family-names: Silvestri
+    given-names: Fabrizio
+    affiliation: Sapienza University of Rome
+  - family-names: Liò
+    given-names: Pietro
+    affiliation: University of Cambridge
+preferred-citation:
+  type: conference-paper
+  title: "Heterogeneous Sheaf Neural Networks"
+  year: 2026
+  collection-title: "Proceedings of the NeurIPS 2026 Workshop on Symmetry and Geometry in Neural Representations (NeurReps), Proceedings Track"
+  publisher:
+    name: PMLR
+  authors:
+    - family-names: Braithwaite
+      given-names: Luke
+    - family-names: Borgi
+      given-names: Alessio
+    - family-names: Onorato
+      given-names: Gabriele
+    - family-names: Tarantelli
+      given-names: Kristjan
+    - family-names: Restuccia
+      given-names: Francesco
+    - family-names: Silvestri
+      given-names: Fabrizio
+    - family-names: Liò
+      given-names: Pietro

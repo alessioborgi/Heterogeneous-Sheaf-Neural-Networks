@@ -1,0 +1,24 @@
+defaults:
+  - _self_
+  - trainer: trainer
+  - model: gcn
+  - dataset: last_fm
+  - callbacks: sheaf_nc
+  - logger: wandb
+  - experiment: null
+
+dataset:
+  homogeneous: true
+
+hidden_dim: 256
+
+tags: [ GNN, link_prediction ]
+
+trainer:
+  precision: bf16-mixed
+
+optimization:
+  learning_rate: 0.001
+  weight_decay: 0.0005
+
+seed: 42  # paper: seeds 42-46
