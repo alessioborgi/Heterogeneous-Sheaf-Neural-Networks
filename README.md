@@ -10,7 +10,7 @@
 [Fabrizio Silvestri](https://scholar.google.com/citations?user=pi985dQAAAAJ)<sup>3</sup>,
 [Pietro Liò](https://scholar.google.com/citations?user=4YhNJBEAAAAJ)<sup>1</sup>
 
-<sup>1</sup>University of Cambridge · <sup>2</sup>Northeastern University · <sup>3</sup>Sapienza University of Rome
+<sup>1</sup>University of Cambridge · <sup>2</sup>Northeastern University, United States · <sup>3</sup>Sapienza University of Rome
 
 <p>
   <a href="mailto:alessio.borgi@uniroma1.it">alessio.borgi@uniroma1.it</a>,
